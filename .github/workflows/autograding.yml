@@ -23,4 +23,5 @@ jobs:
       run: |
         export PYTHONPATH="${PYTHONPATH}:$(pwd)/src"
         pytest --disable-warnings --tb=short > results.txt || true
-
+    - name: Show test results
+      run: cat results.txt
