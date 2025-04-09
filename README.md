@@ -12,9 +12,9 @@ def add(x,y):
 def test_add():
   assert add(1,2) ==  3
   assert add([1],[2]) == [3]
-  assert add(“5”,1) == 6 
+  assert add('5',1) == 6 
   assert add(True,False) != 2
   assert add([1],[2]) != [1,2]
-  assert add(“5”, “1”) != “51”
+  assert add('5', '1') != “51”
 ```
 TODO: Update this README.md file with instructions about each function.
