@@ -1,8 +1,8 @@
 # lab6b_tests
 
 ## Objectives:
-Apply simple functions, consider Higher Order Functions.
-Introduce assertion testing: provide at least 3 pass / fail cases.
+Apply simple functions and tests provide at least 3 pass / fail cases.
+Updates in the add function required type casting parameters (x,y)
 ```
 i.e., # add takes two parameters and returns the sum
 # there exists room to refactor (update) add
