@@ -8,4 +8,4 @@ def test_add():
   assert add(True,False) != 2
   assert add([1],[2]) != [3]
   assert add('5', '1') != '51'
-  print('all tests passed')
+  assert add(1,2) != 3
